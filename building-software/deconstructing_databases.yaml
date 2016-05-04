@@ -1,0 +1,56 @@
+title: deconstructing the database
+
+source: https://www.youtube.com/watch?v=Cym4TZwTCNU
+
+Notes:
+  - Dealing with complexity caused by state and control
+  - embrace declaritive programming for maniupulating data
+  - problem with round trips
+    - basis problems!
+  - problems with consistency and scale
+  - often loose consistency when moving to distributed system
+  - perception and reaction - no polling and consistent!
+  - prefer event based reactive system
+  - data model - tables or documents (relation algebra)
+  - state model - update in place
+    - b trees
+    - blocks on disk
+    - huge coordination overhead with locking
+  - missing an information model
+    - ability to store facts
+    - not have things replace other things in place
+    - temporal notion
+  - approach:
+    - move to an information model
+    - split process and perception
+    - immutable basis in storage
+    - novelty in memory
+  - database state as an expanding value
+    - an accretion of facts
+    - past doesnt change, immutable
+  - process requires new state
+  - fundamental move away from places
+  - whats the fundamental unit of novelty?
+    - represent novelty as assertions or retractions of facts
+    - minimal possible representation
+  - accretion of values includes the past as well
+    - past is a sub range
+  - state
+    - must be sorted
+    - organized to support querying
+    - structural sharing trees
+  - locality of disk is irrelevant now
+    - networks are so fast now
+    - care about locality of data in memory
+  - Indexing
+    - Bigtable
+      - accumulate novelty in memory
+      - current view, mem + storage merge
+      - occasional integrate mem into storage, releases memory
+  - components
+    - transactor - processes and coordinates transaction
+    - peers - percieve, decide, remember
+    - redundant storage service - k,v store
+
+
+

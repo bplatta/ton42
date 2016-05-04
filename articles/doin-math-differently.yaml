@@ -1,0 +1,71 @@
+title: Doing mathematics differently
+source: http://inference-review.com/article/doing-mathematics-differently
+Notes:
+    - conceptual complexity / complexity of ideas
+     - as applied to meta-mathematics (dealing with incompleteness and limits of pure thought)
+    - Herman Weyl 1185 - 1955
+        - mathematician and physicist
+        - phil of sci - complexity is essential in understanding the notion 'law of nature'
+            - if they can be arbitrarily complext - become vacuous
+
+        - Laws of nature MUST be simple
+        - How do you measure the complexity of an equation? Wants to formalize the notion of complexity
+    - Leibniz!
+        - 1686 Discours de métaphysique para V and VI (V - "world IS compreshensible", who knew. Leibniz knew)
+        - what does 'obeying a law' mean?
+            - mathematic formulation (i.e. some equation exists...) -> No! does not distinguius from random
+            - equation must be siiiiimple
+        - the world is comprehensible - simple laws produce the richness of the world
+    - Algorithmic Information Theory (AIT)
+        - input (program) -> Computer -> output (experimental data) where Computer is fixed universal Turing machine
+        - both input and output are merely finite sequences of bits
+        - no distinction between input data and methods/tools used
+        - theory as input, internal signal -> calculating .... -> data? yes! - theory explains, no!! - theory should be tossed
+        - explanation as a form of compression
+        - Turing machine subject ot the halting problem (will it finish?!)
+            - new formulation of halting problem. Given string of bits S. is it possible to prove that S is irreducible
+                - Given S, is it possible to prove that there exists no program P smaller than S that generates S
+            - No proof possible! (incompleteness result, Godel)
+            - program P is elegant if no program smaller than P produces the same output as P
+                - can you prove a program is elegant? super harrrrd
+                - incompleteness result, corollary: unsolvability of Turing Halting Problem
+
+            This guys proof that you can't prove a program elegant (~e):
+                taken: theory A. clear grammar and finite set of axioms.
+                you can (David Hilbert): deduce all possible proofs from the set of axioms for A
+                consider: program P s.t. P(x) (output of P) is of the first provably elegant program Q larger than P
+                    P only cares about theorems that prove individual programs Q are elegant. P Chugs along computing all proofs
+                    from A until it finds a proof that ~e program Q is larger than P itself. P then runs Q, remembers its output,
+                    and then genreates same output as Q.
+                    -> Thats impossible! by the definition of elegance. P is smaller than Q. and Q is an elegant program.
+                    -> P never finds Q. FATAL
+
+    - Gives us a way to measure conceptual complexity of format theory A
+        - number of bits in a program tha does this (compute all possible derivations of A's axioms)
+        - in theory A, can't prove any program elegant that is larger ins size than A's complexity
+    - With Godels approach, can't tell if incompleteness is ubiquitous, commonplace or restricted to degenerate cases
+        - with notion complexity you get a little more: its pervasive
+        - AIT makes incompleteness look natural**
+    - Halting probability Ω - prob that a comp program chosen at random will halt
+        - if K bit program halts, contributes 1/2^K to halting probability
+        - Ω = sum all programs that halt (2^-abs(p)) (p - p's size in bits)  (infinite sum diverges!)
+        - programs are self-delimiting. no extension of program is valid.
+        - Convergence of sum is SLOOW.
+        - Ω is transcendental real number.
+            - irreducible
+            - smallest program that calcuates first N of bits of base-2 expansion of Ω will also have N bits!
+    - Principle of sufficient reason (Leibniz)
+        - if something is true, it is true for a reason (he says. GOD!)
+    - Necessary truths (with reason) and contingent truths (e.g. whose the president?)
+        - latter cannot be proved mathematically or logically (its historical)
+    - Ω shows pure mathematics is infinitely complex!
+    - Reaction to incompleteness
+        - ignored kinda
+        - Is the uncertainty in physics so different from that of pure math?
+        - can only approach absolute trith asymptotically
+
+
+
+
+
+

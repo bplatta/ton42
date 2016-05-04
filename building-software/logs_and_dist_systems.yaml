@@ -1,0 +1,35 @@
+title: On logs and distributed systems
+
+source: https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
+
+Notes:
+  - definition:
+    - append only, totally ordered sequence of records, time indexed
+    - records appended to the log, read left to right
+  - sequence of changes that happened on the database is exactly
+    what is needed to keep a remote replica database in sync
+  - State machine principle
+    - If two identical, deterministic processes begin in the same state and
+      get the same inputs in the same order, they will produce the same
+      output and end in the same state.
+    - deterministic modeling
+    - state of the process is whatever data remains stored, after processing
+  - datastore is essentially just snapshot of the current state
+  - complete logs contain all data necessary for recreating every state
+    at any moment in time
+  - tables and events are dual abstractions
+    - Log more fundamental datastructure
+      - In addition to creating the original table you can also transform it
+        to create all kinds of derived tables.
+  - Log as a service
+    - Data integration is making all the data an organization has
+      available in all its services and systems.
+  - effective use of data requires a consistent, reliable data flow capturing system
+  - how to create reliable data flow
+    - Take all the organization's data and put it into a
+      central log for real-time subscription.
+  - Log makes state of the system easier to reason about
+  - data consumption becomes asynchronous from data production
+  - destination system knows only about the log and not any details of log origin
+  - You can think of the log as acting as a kind of messaging
+    system with durability guarantees and strong ordering semantics

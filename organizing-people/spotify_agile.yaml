@@ -1,0 +1,87 @@
+title: Scaling agile
+
+source: https://dl.dropboxusercontent.com/u/1018963/Articles/SpotifyScaling.pdf
+
+Notes:
+  - Organizational units:
+    - Squads:
+      - basic unit of development, similar to a scrum team
+      - sit together
+      - have all the tools they need to build, test, ship to production
+      - they are a self organizing team and decide how to work
+        - Kanban
+        - sprints
+      - they each have a long term mission
+      - encouraged to apply Lean methods
+        - building MVPs
+        - releasing early and often
+        - validation by metrics
+        - tweaking
+      - each team encouraged to spend 10% of their time on hack days
+        - trying out new ideas and sharing with friends
+        - 1 day every 2 weeks
+        - save up for a hack week
+      - no formally appointed leader
+      - product owner
+        - responsible for prioritizing work
+        - not involved with HOW they do their work
+        - collaborate with other product owners to have highlevel roadmaps
+        - responsible for maintaining product backlog
+    - regular surveys
+      - determine trends
+      - example topics:
+        - product owner - The squad has a dedicated product owner that prioritizes
+          the work and takes both business value and tech aspects into consideration
+        - agile coach - The squad has an agile coach that helps
+          them identify impediments and coaches them to continuously improve their process.
+        - influence on work - - Each squad member can influence his/her work, be an
+          active part in planning and choose which tasks to work on.
+          Every squad member can spend 10% of his/her time on hack days
+        - easy to release - The squad can (and does!) get stuff live with minimal hassle and sync.
+        - process that fits team - The squad feels ownership of their process
+          and continuously improves it
+        - a mission - The squad has a mission that everyone knows and cares about,
+          and stories on the backlog are related to the mission
+        - org support - - The squad knows where to turn to for problem solving support, for
+          technical issues as well as “soft” issues
+- Tribes:
+  - Collection of squads that work on a similar part of the product
+  - tribe lead - responsible for creating the best possible habitat for the tribe
+  - physically in the same office, lounges promote collaboration
+  - sized based on Dunbar number. less than 100
+  - hold gatherings on a regular basis
+    - informal get together
+    - show off what they've been working on
+- Squad dependencies:
+  - ask squads to indicate which squads they depend on
+  - type of dependency
+    - blocking
+    - future
+    - smooth
+    - slowing
+  - reduce squad depdencies if possible
+  - operations team - goal is to make path to production smoother
+- Chapters:
+  - provide economies of scale by sharing knowledge across squads
+  - small family of people with similar skills and working with same general
+    competencies
+- Guild:
+  - more organic and wide reaching community of interest
+  - share knowledge, tools, code and practices
+  - guild coordinator
+- Kind of a matrix organization chart
+- Vertical is what (at the top being product owner)
+- Horizontal is how
+- professor and entrepenuer model recommented by Mary and Tom Poppendieck
+  - entrepenuer is PO or product owner focused on delivering a great product
+  - Chapter lead is focused on delivering technical excellence
+  - there is a HEALTHY tension between these two motivators
+- System Owners:
+  - mitigating the risk of many teams touching all services
+  - they serve as go-tos for architectural decisions
+  - ensures people coding the system don't stumble over each other
+  - also a squad member
+  - take a day to do system ownership things
+  - try to keep this to a tenth of the owner's time
+- Chief Architect:
+  - coordinates work across multiple systems

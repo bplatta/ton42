@@ -1,0 +1,20 @@
+title: Simple Made Easy
+source: http://www.infoq.com/presentations/Simple-Made-Easy
+
+Notes:
+    - Dikstra:simplicity is a prereq for reliability
+    - simple:
+      - one role
+      - one task
+      - one concept
+      - one dimension
+      - don't confuse 'one' with cardinality
+      - object
+    - easy:
+      - near by
+      - near to understanding
+      - relative
+    - construct vs artifact
+      - should care more about the artifact
+      - not the tools
+      - programmer convenience can be BAD

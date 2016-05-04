@@ -1,0 +1,43 @@
+title: On AI and the future of civilization with Stephen Wolfram
+
+source: https://www.edge.org/conversation/stephen_wolfram-ai-the-future-of-civilization
+
+Notes:
+  - What will the world be like when everyone can write code?
+    - analogous to when the modern world became literate
+  - some concepts can be expressed more cleanly in code
+    - natural language becomes burdensome when discussing lofty concepts.
+      - requires someone with a real grasp of the language and a vast lexicon to
+        articulate more sophisticated notions
+      - SW envisions contracts being entirely codified. Can I do this according to this contract?
+        is a question that can be asked of the program which spits out a bool.
+  - the evolution of human purposes over time
+    - how do i get food? feed my family? survive?
+    - now? walk on a treadmill?! WHAT?!
+    - what influences our purposes, the quotidian and the quixotic
+    - They are often an optimization of time. What happens when you can accomplish things
+      much quicker?
+  - some history on neural networks
+    - MucCulloch and Pitts in 1943
+    - marvin minsky and seymour Papert wrote a proof that perceptrons can
+      only make linear distinctions between things. ie. they were boring. So no one
+      cared about NN for a while
+      ai
+  - first thought on making computational knowledge system
+    - build brain like thing, feed it knowledge (like standard education)
+  - other way around kind of. inspiration - cellular atomata, turing machines
+  - take simple programs and look at how they combine with eachother
+    - mine technology out of the computational universe
+      - similar to real mining!
+      - go out and find something with particularly interesting properties
+      - how do we connect these properties to something with a human purpose, goal?
+      - this searching can provide the basic bits for creativity, where from there
+        a human can compose something
+  - Can you encapsulate the knowledge that we've accumulated,
+    both in science and in the collection of data in the world, into a
+    language which we can use to communicate with computers?
+  - How do you distinguish purpose from patterns?
+  - How do you distinguish purpose from computation?
+  - SW - the history of a thing. (my caveot - a history we've CHOSEN to care about)
+
+

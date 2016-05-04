@@ -1,0 +1,16 @@
+
+
+title: On the usage of usernames for logins
+
+source: http://venturebeat.com/2016/04/02/we-need-a-new-username-system/
+
+thoughts:
+  - This article's point is essentially that its bogus that usernames are
+    doled out on a first come first serve basis. Is it truly fair?
+  - I don't particularly care for the article's main point
+
+  on usernames:
+    - uniquely identify users by email and allow them to choose any display name
+      which can be non unique
+    - Indicate clearly users that have not been 'verified'. Need a robust ID system
+    - encourage users to de-anonymize

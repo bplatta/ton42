@@ -1,0 +1,53 @@
+title: On Paxos Concensus
+
+source: https://www.youtube.com/watch?v=JEpsBg0AO6o
+
+Notes:
+  - replicated log => replicated state machine
+  - Concensus module ensures proper log replication
+  - client issue command to server, executes command and propagates to other sm
+  - maintain concensus as long as majority of servers are up
+  - failure models
+    - fail stop
+      - servers may crash, or stop but when running they are behaving as expected
+      - NOT byzantine failures
+      - when messages get through, they are not corrupted
+  - decompose the problem
+    - basic Paxos
+      - one more servers propose values
+      - system must agree on a single value
+      - only one value is ever chosen
+    - multi-paxos
+      - combine several instances of Basic paxos to agree on a series of values
+        forming a log
+  - requirements for basic paxos
+    - safety
+      - algorithm must never do anything bad (at most 1 value)
+      - if a server believe its been chosen, it has been
+    - liveness
+      - eventually have to choose a value
+      - eventually serves find out about the value chosen
+  - proposers
+    - active elements put forth values, handle client requests
+  - acceptors
+    - respond to requests from proposers
+    - store pieces of state
+      - votes
+      - possible values of state
+    - acceptors need to find out about the accepted value
+  - listeners (lumping into acceptors)
+    - listen to decision
+  - solution - need a quorum!
+    - value is chosen if accepted by a majority of acceptors
+  - acceptors will sometimes have to change their mind!
+  - if value is chosen - server must look around and see if a different value has already
+    been chosen
+  - need a 2 phase protocol
+  - must order proposals and reject old ones
+    - each proposal has a unique number which need to be ordered
+    - higher numbers
+  - stop:
+    - 19:00
+
+
+
