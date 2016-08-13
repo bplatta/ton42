@@ -14,6 +14,4 @@ Which sounds lovely in theory.
 - phil includes my own philosophical ramblings and anything I've read.
 
 #### Current TODO:
-- building-software/agile_manifesto
-- building-software/continuous_deployment
-- books/lanier_who_owns_the_future
+-
