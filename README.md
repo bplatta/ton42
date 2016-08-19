@@ -12,6 +12,3 @@ Which sounds lovely in theory.
 - articles are articles I've read. These will be a little
   less structured. Notes + Musings -> some sort of conclusion. Or no conclusion. We'll see.
 - phil includes my own philosophical ramblings and anything I've read.
-
-#### Current TODO:
--
