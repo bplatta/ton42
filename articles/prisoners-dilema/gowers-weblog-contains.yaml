@@ -1,0 +1,71 @@
+title: contains (the symbol)
+source: https://gowers.wordpress.com/2016/06/02/6172/
+
+
+Notes:
+  - Context on author
+    - For the brexit. Academic w/ french wife and bilingual children
+    - Article is 'back to first principles'
+  - Layout for article. Addressing 3 questions:
+      - need for supranational organizations
+      - to what extent we should care about sovereignty
+      - whether we should focus on the national interest
+  - Case for supranational organizations:
+    - Seems to take it as a given, 'so it can benefit nations to join groups 
+      and agree to restrict their behaviour in certain ways.'
+    - Example illustration, issues with drugs in sports
+      - one argument is to just allow drugs. However this has the affect of making them
+        compulsory
+      - Athletes taking drugs have an edge. But it has been found that these drugs have some
+        serious health side effects. ie. its not in their best interest in the long run
+      - Simply agreeing on not takig drugs not enough. Need an organization to which they
+        belong that conducts regular screenings and punishes drug usage.
+      - the reveal, its the Prisoner's Dilema (PD)!!
+    - Of course, actors in the PD need not be people, they can be countries
+      - Example, a government imposed minimum wage.
+        - Not having one makes companies more competitive arguably, with lower prices. Possible
+          its a net benefit to the economy
+        - Might benefit a nation to become the 'sweatshop of europe'
+        - Without an organization enforcing any rules against this, all countries will be aware of this strategy
+          and likely be inclined to choose it, making all workers worse off and destroying the competitive advantage
+      - Another example is of course, Climate Change (very true)
+      - Another example is corporation tax
+        - Lowering the tax would attract foreign investment -> race to the bottom!
+  - Should we care about sovereignty?:
+    - He argues it begs the question as to what layer of granularity one might WANT sovereignty
+      - Should it be at the national level? city level? county? Perhaps family level?
+      - He works backwards from the 'lowest' level
+        - Families benefit from decisions at a higher level -> county? etc.etc.
+        - Of course, lower level units have less control over that higher level entity -> low accountability
+    - 'Principle of  Subsidiarity' - principle that decisions should be taken at the lowest level that is appropriate
+      - Personal aside: 
+        - For this to work effectively I would imagine would require an assessment of the externalities of a given decisions
+          in addition to the direct consequences of it. Externalities are notoriously difficult to assess and codify into law.
+      - He argues that it is Subsidiarity that REALLY matters
+  - To what extent does the natural interest matter:
+    - Of course! All things being equal! (are they?)
+    - Suppose it was in UKs best interest to leave EU. Is it in Europes? Suppose it wasnt. Should one vote to leave?
+      - utilitarian - total benefit of UK leaving EU = benefit to UK - benefit to EU. So. No
+      - Are we all really strict utilitarians? Suspect no. Author isn't selling his house at his detriment to do more good etc.
+    - Author's principle (pretty sensible in my opinion) - 'some people I care about more than others (interests are 
+      wrapped up together). Give more weight to people/groups closer to me'
+      - once weighting taking into account, basically utilitarian.
+      - maximize total utility given the weights
+    - So. who do I feel closer to? And what are those weights? How does it affect the equation?
+    - Aside:
+        - motivated by comment. Can you formalize the latter relationships and weights with a graph?
+
+Reaction:
+  - Ultimately I certainly agree that organizations that exist at higher levels and govern decisions that have
+    externalities that cross boundaries need to exist. Precisely for prisoner dilema situations. Or even situations
+    in which one group would be disadvatanged or at the behest of a more powerful group's decision.
+  - The lines drawn to dileneate groups on geographical lines are subject to varying degrees of 
+    arbitrarity and it would be ideal if these could have some fluidity. (this would of course require an 
+    abstraction one layer above). Say within national lines, or in the US, within state lines.
+  - I wonder to what extent that utility equation could be formalized. Or even an estimate
+    - Could you crowdsource the features in this equation?
+      - Crowdsourcing an optimization equation? Would people be afraid of the math? Hide it. Show it if called for.
+        - Is a heuristic of just voting a better way to aggregate preferences? Should modeling even be undertaken at this level?
+          - question is whether voting systems regularily reach the 'ideal' solution within a margin of error
+
+
