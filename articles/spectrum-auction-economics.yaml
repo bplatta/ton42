@@ -1,0 +1,48 @@
+topic: auction systems
+application: US auction of national radio spectrum
+source: https://priceonomics.com/the-spectrum-auction-how-economists-saved-the-day/
+
+Notes:
+  - right to use radio band governed by the FCC(Fed Comm Commission)
+  - For decades, Fed parceled out radio divisions by conducting hearings and lotteries
+  - started selling spectrum in 1994. (US Treasury 100 billion richer as a result!)
+  - George von Lengerke Meyer, Taft's Secrectary of the navy, was frustrated by amateurs
+    jamming navy frequencies and causing interference
+  - in the aftermath of 1912 Titanic, people blamed amateur radio operators for 
+    muddying up the rescue operation -> spurred Congress to pass the Radio Act
+  - Radio Act - required all broadcasters to obtain licenses from the Secrectary of Commerce
+    - By 1927, spectrum was a publically owned and managed resource
+  - next 55 yrs, method of choice was 'comparitive hearings' - panel in from of the FedRadioCommission (now FCC)
+    - licenses given out for free essentially
+    - given to whomever best advanced the 'public interest' - which led to a lot of lawsuits from the losers
+  - With the advent of TV, license applications were plentiful
+    - Congress approved a lottery system in 1983
+    - The lottery system proved problematic. Not basing the decision on ANYTHING was an issue
+    - People were like, 'wtf, just giving away huge assets here randomly?'
+  - in 1993, Congress called for FCC to issue licenses by auction
+  - spectrum a little more complicated to auction off
+    - value of a given license for a bidder often depends on the value of other licenses
+    - how much should company bid for, say, California, if they are going for a national network? well depends on what other licenses they can get
+      - needs to know how much the other states will cost
+      - what if some other company knows this strategy and just puts all chips on NY to hold out for an absurd priceonomics
+    - 'Exposure Problem' - people can react to your strategy knowingly. Asymetric information
+    - the Challenge -  set up an auction in which multiple bidders could bid on multiple licenses in
+      multiple markets without running into the exposure problem
+  - Solution - simultaneous setting of prices
+    - Round 1 - all bidders bid on desired markets
+    - Round 2 - review high bids. Update strategy. Another round of bidding
+    - auction finally ends when a round passes in which no bids are made on any of the licenses.
+  - First auction held in July of 1994
+  - Problems
+    - can collude by conveying strategy in bid prices
+    - Comcast and TWC exploited a quirk that made it more difficult for bidders to move from
+      on license to the other (quirk here, http://web.stanford.edu/~jdlevin/Papers/AWS.pdf)
+  - Coming issues
+    - the supply is fixed! (kinda) 2012 FCC initiated a plan to repurpose spectrum. Quite the resource
+      reallocation
+    - New design
+      - FCC is lone BUYER in a reverse auction, FCC starts high and sought out TV broadcasters willing to sell at low prices
+      - FCC is merely playing the middleman in spectrum recycling
+      - Finishing with forward auction
+        - bids are not tied to specific frequency, made for generic spectrum in a region
+        - doesnt depend on bids. instead, FCC raises price at each step and asks bidders how much they will by at price
