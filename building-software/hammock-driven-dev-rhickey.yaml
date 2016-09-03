@@ -1,0 +1,77 @@
+title: Hammock driven development
+
+source: https://www.youtube.com/watch?v=f84n5oFoZBc
+
+Notes:
+  - Fix bugs in dev. yes. of course. AND IN DESIGN
+  - Analysis & Design - what is the problem? Does this design solve this problem
+  - Dont build features! Solve problems! Feature is not purpose. Do NOT introduce new problems
+  - Avoiding problems is NOT solving them!
+  - wikihow, how to solve it
+  - how
+    - STATE THE PROBLEM!
+      - say it out loud
+      - write it down
+    - UNDERSTAND THE PROBLEM!
+      - facts
+      - constraints
+      - context
+      - you will know some things you dont know
+      - there are some things you wont know you dont know...
+      - related problems? who solved this before?
+      - write it down
+    - BE DISCERNING!
+      - focus on own stuff. not everything is awesome...
+      - problems in your solutions?
+        - solve those too
+      - what are the tradeoffs?
+      - questions?
+        - find out what you dont know
+      - read in and around your space, papers etc.
+      - find other persons solution, crucify it, be critical
+    - TRADEOFFS
+      - enumerate 2 or more possible solutions
+        - whats good or bad about them?
+      - write it down
+    - MAINTAINING FOCUS
+      - computer is prime source of distraction
+        - (Note - i should spend minimum 30min a day with notepad sitting isolated somewhere. with a pencil of course)
+      - WAKING MIND
+        - good at critical thinking
+        - analysis & tactics
+        - prone to finding local maxima
+        - use waking mind time to feed work to the background mind
+          -  analyze its products
+      - BACKGROUND MIND
+        - sleeping mind is instance of it
+        - good at making connections
+          - synthesis
+          - strategy
+          - abstracts, analogizes
+        - solver of most non-trivial problems
+          - scientific american said it!
+          - brain is processing info while we sleep! yay!
+          - solves problems we were working on
+        - HAVE TO THINK ABOUT THE PROBLEM DURING THE DAY!
+          - make it an agenda item for the mind while your asleep
+    - LOADING IT UP
+      - 7 +/- 2 working memory limit
+      - Many designs > 9 components!
+      - write proposed solution down
+        - pictures!
+        - this will help you survey it
+      - Go over go over
+      - THEN. STOP. CLOSE EYES. MINDS EYE WILL WANDER. DONT TRY. JUST. DONT.
+    - WAAAAIIT FOR IT
+      - CAKE IS IN THE OVEN
+      - wait overnight... we'll see
+      - sleep sober
+      - sometimes... take... months
+      - work on 1 thing a day (if you can)
+    - EVENTUALLY CODING IS REQUIRED
+      - TYPE SPARINGLY!!!!!
+      - feedback loop is important
+      - dont lean on this though
+    - YOU WILL BE WRONG!
+      - when the facts change, rerun the experiment!
+
