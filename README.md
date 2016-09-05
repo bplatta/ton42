@@ -16,6 +16,8 @@ If you find some of my thoughts irresponsible or find yourself responding emotio
 - research is any research writeups I'm working on.
 - articles are articles I've read. These will be a little
   less structured. Notes + Musings -> some sort of conclusion. Or no conclusion. We'll see.
+- thoughts are generally stream of conciousness writing stuff. Note I will encrypt some 'journal' entries if I dont
+  feel like making them public
 
 To-Do:
 - articles/is-competition-always-good
