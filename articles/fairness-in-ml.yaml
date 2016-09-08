@@ -1,0 +1,34 @@
+topic: Approaching fairness in machine learning
+source: http://blog.mrtz.org/2016/09/06/approaching-fairness.html
+
+Notes:
+	- how do you algorithmically measure and ensure fairness in machine learning?
+	- goal - prove demographic parity is bad measure for gauranteeing fairness
+	- Call to action
+		- new ML algorithms introduced in large industries may inadvertently perpetuate biases
+		  or introduce new biases. potentially encoding discrimination
+		- Obama adm working group on big data suggested this
+			- https://www.whitehouse.gov/sites/default/files/docs/big_data_privacy_report_may_1_2014.pdf
+		- decisions based on ML might wind up being unfair despite any explicit wrongdoing
+			- https://medium.com/@mrtz/how-big-data-is-unfair-9aa544d739de#.ixxxkuy5g
+		- change of reducing bias! as ML may bring to light biases latent in society
+		- Historically the approach has been to simply NOT look at certain attributes like race, gender,
+		  religion, etc.
+	  		- this "fairness through blindness" fails because of redundant encodings in attributes that are considered
+	  		- these attributes are correlated with others that ARE considered
+	- Demographic Parity
+		- requires that a decision, e.g. accepting/denying loan application, be independent of the protected attribute
+			- with binary decision C and protected attribute A, P(C|A) = P(C). or P(C|A=x) = P(C|A=y) for all values of A
+		- membership in protected class should have no correlation with decision
+		- in representation learning, tempting to ask representation has zero mutual information with the protected attribute
+			- mutual info - https://en.wikipedia.org/wiki/Mutual_information
+	- Demographic parity doesnt ensure fairness
+    - permits classifier selects qualified applicants demographic A=0, but unqualified applicants in A=1, 
+      so long as the percentages of acceptance match
+    - e.g. dem parity is ok with a promotion where a group of affluent whites recieved same amount of offers
+      as group of less affluent blacks. same fraction recieve promotion -> dem parity says its fine!
+  - Demographic parity cripples machine learning
+    - imagine we had perfect predictor of future events, e.g. who will purchase a product, 
+      this predictor might be ruled out due to failing to achieve demographic parity! resulting in 
+      less utility for no good reason. (groups might just have different preferences!)
+    - demographic parity is not aligned with fundamental goal of achieving higher prediction accuracy
