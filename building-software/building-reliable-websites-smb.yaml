@@ -1,0 +1,47 @@
+title: Building highly reliable websites for small businesses
+source: http://www.kalzumeus.com/2010/04/20/building-highly-reliable-websites-for-small-companies/
+
+Notes:
+  - write down your risks. On paper. now
+    - they are predictable
+    - what is likely to break?
+      - how do you mitigate that?
+    - things that move. fail
+  - assumption - system is broken to a degree unpredictable at runtime
+  - you are your own worst energy
+    - once steady state is achieved, any change injects higher odds of failure
+  - database - highly likely culprit here (perhaps this fact has changed since 2010 given AWS and GCE reliability)
+  - example failures:
+    - Operator error
+    - Operator error
+    - Operator error
+    - Hardware failures on the server
+    - Network failures at Slicehost
+    - Mongrel fails
+    - MySQL fails
+    - Memcached fails
+    - Delayed Job fails
+    - Scheduled cron tasks fail
+    - External APIs (e.g. Mixpanel) fail
+    - Embedded Javascript (e.g. Google Analytics) fail
+  - mitigating failures before they happen:
+    - decouple services! Failure of one component shouldnt effect entire system
+      - eg never call external API from within request/response lifecyle. do this communication asynchronously
+    - go after low hanging fruit first
+    - show a nice static error page!
+    - automated recovery
+      - restart bad processes automatically
+      - restart the dameon that restarts things... turtles..
+    - minimizing operator error!
+      - automate anything you have to do more than once!
+      - simple checklists - automate them
+      - run checklists to make sure theyre up to date
+  - be notified of failures in timely manner:
+    - easiest - point at homepage and notify if it doesnt resolve
+    - status page that checks the important API collections and what not
+    - can be notified by sms with some tools
+  - Ask the 5 whys
+    - no failure has just one cause
+    - mitigate compounding effects
+
+
