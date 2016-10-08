@@ -1,0 +1,4 @@
+# Organizations
+
+- [OPEC](#opec) - intergovernmental organization of 14 countries, 2/3 middle eastern countries from the Persian Gulf. Stated mission is to coordinate petroleum policies to ensure stable oil market and guarantee returns for members. Founded in 1960. [cite](citation.md#opec)
+- [Federal Reserve](#fed-reserve) - Central banking system of the US set up in 1913. 3 key objectives: maximizing employment, stabilizing prices, moderating long-term interest rates. As of 2009, also includes regulating large banks, maintaining stability of the financial system and providing services to depositing institutions, US gov and other foreign institutions. https://en.wikipedia.org/wiki/Federal_Reserve_System 

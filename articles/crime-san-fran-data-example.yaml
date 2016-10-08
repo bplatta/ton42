@@ -1,0 +1,12 @@
+topic: analyzing crime in san francisco
+source: https://www.periscopedata.com/blog/safety-in-san-francisco.html
+
+Notes:
+  - plotted total monthly crime and overlayed trendlines for the year
+  - assessed crime by breaking down into different time scales
+    - crime by day of week
+    - hour of day
+    - most active days per year
+  - does some basic theorizing of means and modes etc
+  - question? Is data artifact of how it was reported, or gathered? Or actually representative?
+  - looking at different time/data series is great way to build familiarity with dataset
