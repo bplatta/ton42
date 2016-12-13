@@ -3,18 +3,58 @@ source: http://www.infoq.com/presentations/Simple-Made-Easy
 
 Notes:
     - Dikstra:simplicity is a prereq for reliability
+    - SIMPLE vs EASY
     - simple:
       - one role
       - one task
       - one concept
       - one dimension
       - don't confuse 'one' with cardinality
-      - object
+      - disentangled
+      - An objective notion
     - easy:
       - near by
       - near to understanding
-      - relative
+      - A relative notion
     - construct vs artifact
       - should care more about the artifact
       - not the tools
       - programmer convenience can be BAD
+      - ability to change, quality etc. attributes of the artifact! NOT the constructs
+      - should assess constructs by artifacts
+    - How can we make things reliable if we dont understand them?
+      - can only consider x things at a time (balls in the air, gestalts in memory)
+      - complexity hinders understanding
+      - complexity can increase combinatorially
+       - understanding a, requires pulling b into memory, understanding b requires c and d etc.
+    - Change
+      - require analysis and decision making
+      - whats impacted? what needs to change?
+      - not proof, just informal reasoning
+      - doing it safely requires being able to reason about program
+    - Debugging
+      - bugs pass tests and types
+    - Development speed
+      - emphasizing ease gives early speed
+      - ignoring complexity will slow you down later
+    - Dangerous incidental complexity
+      - many easy constructs add complexity (OOP)
+    - Benefits of simplicity
+      - ease of understanding and change
+    - Composing simple components is the key to robust software
+    - State is NEVER simple
+    - Abstraction for simplicity
+      - drawn away
+      - Not abstraction by hiding
+      - who what when where why how
+      - dont know, i dont want to know
+    - form abstractions from related small sets of functions
+      - should be small interfaces
+      - small subcomponents, lots of them
+    - How
+      - connect subcomponents via polymorphism constructs
+      - declarative tools
+      - Use queues to remove complecting
+    - Represent Data as Data!
+    - Disentangle!!!!!!
+      
